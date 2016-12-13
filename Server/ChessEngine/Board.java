@@ -25,7 +25,7 @@ public interface Board {
 	
 				for ( int i=0; i < 8; i++ ) {
 		
-					board[i][1] = "w.Pawn";
+					board[i][1] = "w.Pawn"; // for i < 8, board[<file i>][rank 2] = w.Pawn
 		
 				}
 
